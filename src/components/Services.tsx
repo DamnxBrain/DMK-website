@@ -1,6 +1,8 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { Hammer, Building2, Cog, Zap, Gauge, Wrench } from "lucide-react";
+import installationImage from "../assets/images/dmk/steel-measurement.jpg";
+import fabricationImage from "../assets/images/dmk/manual-welding-blue.jpg";
 
 export function Services() {
   const services = [
@@ -78,7 +80,7 @@ export function Services() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="relative h-64 rounded-lg overflow-hidden">
             <ImageWithFallback
-              src="https://images.unsplash.com/photo-1587293852726-70cdb56c2866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdGVlbCUyMHdlbGRpbmd8ZW58MXx8fHwxNzU1MzU0NjYyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              src={fabricationImage}
               alt="Steel welding and fabrication"
               className="w-full h-full object-cover"
             />
@@ -91,7 +93,7 @@ export function Services() {
           </div>
           <div className="relative h-64 rounded-lg overflow-hidden">
             <ImageWithFallback
-              src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxzdGVlbCUyMGZhYnJpY2F0aW9ufGVufDF8fHx8MTc1NTM1NDY2Mnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              src={installationImage}
               alt="Industrial construction"
               className="w-full h-full object-cover"
             />

@@ -122,3 +122,4 @@ dist
 
 # Large files
 src/assets/images/dmk/hero/companybackground.mp4
+node_modules

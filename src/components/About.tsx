@@ -1,6 +1,8 @@
 import { Card, CardContent } from "./ui/card";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { CheckCircle, Target, Eye, Heart } from "lucide-react";
+import { CompanyLogos } from "./CompanyLogos";
+import aboutImage from "../assets/images/dmk/architectural-steel-curved.jpg";
 
 export function About() {
   const achievements = [
@@ -37,12 +39,12 @@ export function About() {
           <div>
             <h2 className="text-3xl md:text-4xl mb-6">About Us</h2>
             <p className="text-lg text-muted-foreground mb-6">
-              DMK specializes in engineering, fabricating, and installing steel structures 
-              for small to medium-sized projects. Our expertise extends to modifying 
-              and replacing mechanical, electrical, and instrumentation equipment, as 
+              DMK specializes in engineering, fabricating, and installing steel structures
+              for small to medium-sized projects. Our expertise extends to modifying
+              and replacing mechanical, electrical, and instrumentation equipment, as
               well as delivering comprehensive turnkey electro-mechanical solutions.
             </p>
-            
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {achievements.map((achievement, index) => (
                 <div key={index} className="flex items-center gap-3">
@@ -52,10 +54,10 @@ export function About() {
               ))}
             </div>
           </div>
-          
+
           <div className="relative">
             <ImageWithFallback
-              src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdGVlbCUyMGZhYnJpY2F0aW9ufGVufDF8fHx8MTc1NTM1NDY2Mnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              src={aboutImage}
               alt="Steel fabrication workshop"
               className="w-full h-96 object-cover rounded-lg shadow-lg"
             />
@@ -68,6 +70,11 @@ export function About() {
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             To provide exceptional engineering and construction services that build lasting relationships with our clients through quality workmanship and professional excellence.
           </p>
+        </div>
+
+        {/* Company Logos Marquee */}
+        <div className="mb-16">
+          <CompanyLogos />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">

@@ -22,7 +22,7 @@ export function Contact() {
     // In a real application, this would send the form data to a backend
     console.log("Form submitted:", formData);
     alert("Thank you for your inquiry! We'll get back to you within 24 hours.");
-    
+
     // Reset form
     setFormData({
       name: "",

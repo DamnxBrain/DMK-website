@@ -19,14 +19,14 @@ export function Footer() {
           {/* Company Info */}
           <div>
             <div className="mb-4">
-              <img 
-                src={logo} 
-                alt="DMK For Engineering & Construction" 
+              <img
+                src={logo}
+                alt="DMK For Engineering & Construction"
                 className="h-10 w-auto brightness-0 invert"
               />
             </div>
             <p className="text-primary-foreground/80 mb-4">
-              Professional engineering and construction services specializing in steel structures 
+              Professional engineering and construction services specializing in steel structures
               and electro-mechanical solutions since 2019.
             </p>
             <div className="flex gap-4">
@@ -47,7 +47,7 @@ export function Footer() {
             <h3 className="text-lg mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('home')}
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
@@ -55,7 +55,7 @@ export function Footer() {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('services')}
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
@@ -63,7 +63,7 @@ export function Footer() {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('about')}
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
@@ -71,7 +71,7 @@ export function Footer() {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('projects')}
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >
@@ -79,7 +79,7 @@ export function Footer() {
                 </button>
               </li>
               <li>
-                <button 
+                <button
                   onClick={() => scrollToSection('contact')}
                   className="text-primary-foreground/80 hover:text-primary-foreground transition-colors"
                 >

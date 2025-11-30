@@ -46,7 +46,7 @@ export function Features() {
     <section id="features" className="py-20 bg-gradient-to-b from-black to-gray-900">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <motion.h2 
+          <motion.h2
             className="text-4xl md:text-5xl text-white mb-4"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -55,7 +55,7 @@ export function Features() {
           >
             Powerful Features
           </motion.h2>
-          <motion.p 
+          <motion.p
             className="text-xl text-gray-400 max-w-2xl mx-auto"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -89,7 +89,7 @@ export function Features() {
         </div>
 
         {/* Feature Highlight */}
-        <motion.div 
+        <motion.div
           className="mt-20 text-center"
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -103,7 +103,7 @@ export function Features() {
             <p className="text-gray-400 mb-6 max-w-2xl mx-auto">
               Join thousands of businesses who trust ASK to power their operations with next-generation technology solutions.
             </p>
-            <button 
+            <button
               onClick={() => {
                 const element = document.getElementById('contact');
                 if (element) {
